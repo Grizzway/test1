@@ -1,4 +1,5 @@
 {
+	heroku buildpacks:set heroku/java
 	"name": "jquery-ui",
 	"title": "jQuery UI",
 	"description": "A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.",
