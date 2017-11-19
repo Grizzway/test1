@@ -1,5 +1,4 @@
 {
-	heroku buildpacks:set heroku/java
 	"name": "jquery-ui",
 	"title": "jQuery UI",
 	"description": "A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.",
@@ -49,6 +48,7 @@
 	"bugs": "https://bugs.jqueryui.com/",
 	"license": "MIT",
 	"scripts": {
+  heroku buildpacks:set heroku/php
   "start": "node index.js",
   "test": "mocha",
   "postinstall": "bower install && grunt build"
